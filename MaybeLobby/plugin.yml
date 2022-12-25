@@ -1,0 +1,17 @@
+name: MaybeLobby
+main: MaybeLobby\MaybeLobby
+version: 1.0.0
+api: 4.0.0
+
+author: CzuyK
+
+commands:
+  hub:
+    description: Return to the lobby
+    usage: "/hub"
+    permission: lobby.command
+permissions:
+  lobby.command:
+    description: "Return to the lobby"
+    default: true
+
